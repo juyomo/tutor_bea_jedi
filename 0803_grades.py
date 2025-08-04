@@ -15,6 +15,17 @@ grade = 89.99999999
 if (grade >= 90):
     print ('A')
 
-# [80, 90) B
 if (grade >= 80 and grade < 90):
     print ('B')
+
+if (grade >= 70 and grade < 80):
+    print ('C+')
+
+if (grade >= 60 and grade < 70):
+    print ('C')
+
+if (grade >= 50 and grade < 60):
+    print ('C-')
+
+if (grade >= 0 and grade < 50):
+    print ('F')
