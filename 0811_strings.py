@@ -22,6 +22,11 @@ print(s[1] + s[3])
 len(s)
 len("12345") + len("9345")
 
+# Upper / lower case
+mixed = "aBc"
+print(mixed.upper())
+print(mixed.lower())
+
 # Print name
 str1 = "Juyoung"
 str2 = "Moon"
