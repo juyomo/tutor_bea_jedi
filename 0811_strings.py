@@ -20,6 +20,8 @@ print(s[1] + s[3])
 
 # Length
 len(s)
+len("12345") + len("9345")
+
 # Print name
 str1 = "Juyoung"
 str2 = "Moon"
