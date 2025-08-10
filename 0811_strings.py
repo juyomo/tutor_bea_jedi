@@ -27,6 +27,14 @@ mixed = "aBc"
 print(mixed.upper())
 print(mixed.lower())
 
+# Substring
+fullStr = "abcdefg"
+print(fullStr[0:3])
+print(fullStr[2:4])
+print(fullStr[0:4])
+print(fullStr[:4])
+print(fullStr[2:])
+
 # Print name
 str1 = "Juyoung"
 str2 = "Moon"
