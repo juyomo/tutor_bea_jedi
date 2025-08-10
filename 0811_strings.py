@@ -35,6 +35,12 @@ print(fullStr[0:4])
 print(fullStr[:4])
 print(fullStr[2:])
 
+# Split & Join
+fruits = "apples,oranges,bananas"
+parts = fruits.split(",")
+print(parts)
+print("-".join(parts))
+
 # Print name
 str1 = "Juyoung"
 str2 = "Moon"
