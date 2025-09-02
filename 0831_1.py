@@ -3,11 +3,11 @@ def lb():
 
 def title(s):
     print("")
-    div = "=========="
+    div = " ========== "
     print(div + s + div)
 
 ######################
-title("Exercise 3")
+title("Review from last week")
 #     *
 #    **
 #   ***
@@ -22,27 +22,18 @@ print(" ****")
 print("*****")
 lb()
 
+print("Actual:")
 n = 5
 for i in range(n): # 0, 1, 2, 3, 4
-    print(" " * (n-i-1) + "*" * (i + 1))
+    spacePart = " " * (n - i - 1)
+    starPart = "*" * (i + 1)
+    print(spacePart + starPart)
 
 ######################
-## Question # 4
-title("Exercise 4")
-
-print("    *")
-print("   ***")
-print("  *****")
-print(" *******")
-print("*********")
-
-lb()
+title("Continued from last week - print a tree!")
 
 n = 19
-height = n // 2   # 5
-print("n, height: ")
-print(n)
-print(height)
+height = n // 2
 
 # Leaf part of the tree
 for i in range(n):
@@ -50,28 +41,13 @@ for i in range(n):
     starPart = "*" * (2 * i + 1)
     print(spacePart + starPart)
 
-######################
-# Homework #1
-# Print the tree trunk! Below is where we left off in class.
-
-
 # Print the trunk part of the tree!
 for i in range(height): # 0, 1, 2, 3, 4
     spacePart = " " * (n - height // 2)
     starPart = "*" * height
     print(spacePart + starPart)
 
-## executing
 lb()
-
-######################
-# Homework #2
-# Print the following shape
-# *********
-#  *******
-#   *****
-#    ***
-#     *
 
 
 ######################
