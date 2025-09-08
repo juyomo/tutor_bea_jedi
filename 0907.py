@@ -48,7 +48,6 @@ print(isEven(2))
 print(isEven(3))
 
 ######
-######################
 title("Stars!!!")
 
 def printStars(n):
@@ -65,5 +64,3 @@ printStars(100)
 
 #####
 title("End of Program")
-
-print(type(123) == int)
